@@ -28,7 +28,11 @@ public class ChromeBrowser_Login__page {
 		
 		Thread.sleep(1000);
 		
-		driver.findElement(By.xpath("//h3[text()='32'] ")).click();
+		driver.findElement(By.xpath("//span[text()='chevron_right'] ")).click();
+                 
+		Thread.sleep(1000);
+		
+		driver.findElement(By.xpath("//span[text()='Orders']")).click();
 		
 		Thread.sleep(1000);
 		
